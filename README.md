@@ -6,3 +6,5 @@
     CREATE USER hbstudent WITH PASSWORD 'hbstudent';
 - **Grant Priviledges**
     GRANT ALL PRIVILEGES ON DATABASE "hb" to hbstudent;
+- **Checking schema**
+    \d+ <tablename>
